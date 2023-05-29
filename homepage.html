@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="shortcut icon" href="homepage img/game-console.png" type="image/x-icon">
+    <title>Basic gaming website</title>
+</head>
+<body>
+    <div class="top-background">
+        <img src="homepage img/retro-gaming-21.jpg" alt="Gaming">
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="carousel">
+
+        <div class="slide fade">
+            <img class="slide-img" src="./carousel-img/1600w-GQWnrea9oeE.webp" alt="">
+        </div>
+
+        <div class="slide fade">
+            <img class="slide-img" src="./carousel-img/1600w-PWYZmwkPtUg.webp" alt="">
+        </div>
+
+        <div class="slide fade">
+            <img class="slide-img" src="./carousel-img/1600w-QUVVB5lzUWo.webp" alt="">
+        </div>
+
+        <!-- <div class="slide fade">
+            <img class="slide-img" src="./carousel-img/black-futuristic-wallpaper-gaming-vector.jpg" alt="">
+        </div> -->
+
+    </div>
+
+    <div style="text-align:center; position: relative;">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <!-- <span class="dot"></span>   -->
+      </div>
+
+    <div class="nav">
+        <!-- <img src="homepage img/png-transparent-purple-border-neon-light-shop-decoration-long-round-bar-thumbnail.png" alt=""> -->
+
+        <nav class="navbar">
+            <div class="nav-item">
+                <a href="">
+                    <img  src="homepage img/game-console.png" alt=""> 
+                </a>
+                <a href="">Homepage</a>
+            </div>
+            <div class="nav-item">
+                <a href="">
+                    <img src="./homepage img/price-sticker.png" alt="">
+                </a>
+                <a href="">New</a>
+            </div>
+            <div class="nav-item">
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction()">
+                    
+                        <img class="dropbtn" src="./homepage img/options-lines.png" alt="">
+                    
+                        Category
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#item1">Memory Game</a>
+                        <a href="#item2">Bounce Game</a>
+                        <a href="#item3">Hangman</a>
+                      </div>
+                </div>
+
+            </div>
+            <div class="nav-search">
+                <form action="">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Go</button>
+                  </form>
+            </div>
+            
+            <div class="nav-item"></div>
+            
+        </nav>
+    </div>
+    <section class="main">
+        <div id="item1" class="main-item">
+            <a href="game data/Memory game/index.html" target="_blank">
+                <img class="main-game" src="game data/Memory game/1553591642_kim-cuong-co-dien-1.png" alt="">
+            </a>
+        </div>
+        <div id="item2" class="main-item">
+            <a href="game data/Bounce game/index.html" target="_blank">
+                <img class="main-game" src="game data/Bounce game/images (1).jpg" alt="">
+            </a>
+
+        </div>
+        <div id="item3" class="main-item">
+            <a href="game data/hangman/index.html" target="_blank">
+                <img class="main-game" src="game data/hangman/hangman.jpg" alt="">
+            </a>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+       
+        <footer>
+            <div class="container">
+               <div class="footer-content">
+                  <div class="footer-logo">
+                    
+                     <h2>Game Memory</h2>
+                     <h2>Ball Shooter</h2>
+                     <h2>Hangman</h2>
+                  </div>
+                  <nav class="footer-links">
+                     <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Play</a></li>
+                        <li><a href="#">Scores</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </nav>
+                  <div class="footer-social">
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="footer-info">
+                     <p>&copy; 2023 Game Name. All rights reserved. | Designed by Team Chuyên Game</p>
+                     <p>Address: 123 Street, City, State ZIP</p>
+                     <p>Email: info@example.com</p>
+                     <p>Phone: 123-456-7890</p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+        
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
+
+
+            
